@@ -1,0 +1,18 @@
+.dot {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  z-index: 10;
+}
+
+.dot:hover {
+  transform: scale(1.2);
+  background-color: #ff5252;
+}
+
+#result {
+  z-index: 1000;
+}
